@@ -1,0 +1,39 @@
+/* Reset minimal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Centered container */
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main title */
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* SOON text */
+.soon {
+    margin-top: 8px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    opacity: 0.6;
+}
